@@ -3,8 +3,7 @@ function newItem() {
   var ul = document.getElementById("list");
   var li = document.createElement("li");
   
-  li.appendChild(document.createTextNode(item[0].toUpperCase() +  
-  item.slice(1)));
+  li.appendChild(document.createTextNode(item[0].toUpperCase() + item.slice(1)));
   ul.appendChild(li);
   document.getElementById("input").value = "";
   li.onclick = removeItem;
@@ -15,6 +14,7 @@ document.body.onkeyup = function(e) {
     newItem();
   }
 };
+
 function removeItem(e) {
   e.target.parentElement.removeChild(e.target);
 }
