@@ -12,11 +12,19 @@
   <body>
     
     <main>
-        <div id="insertItem">
+      <h2>Shopping List</h2>
+      <div id="insertItem" class="input-group mb-3">
+        
+        <input id="input"type="text" class="form-control input" placeholder="Insert item and press Enter" aria-label="Insert item" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-primary" type="button" id="button-addon2" onclick="newItem()">Add</button>
+        </div>
+      </div>
+        <!-- <div id="insertItem">
             <h2>Lista de Compras</h2>
             <input id="input" class="" placeholder="Insira um item para a lista" />
             <button class="btn btn-primary"onclick="newItem()">Adicionar</button>
-        </div>
+        </div> -->
         <ul id="list"></ul>
     </main>
   </body>

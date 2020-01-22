@@ -1,51 +1,37 @@
-html {
-    font-family: "Avenir Next", Helevetica, sans-serif;
-    text-align: center;
-  }
-  
-h2 {
-    font-size: 30;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-}
-
   body {
-    /* max-width: 400px; */
+    max-width: 600px;
     margin: 0 auto;
     background-color: rgb(146, 163, 238);
   }
   
+  h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+  }
+
   #insertItem {
-    border: 2;
     border-radius: 10px;
     background-color: rgb(204, 236, 247);
     position: relative;
-    top: 80px;
+    top: 30px;
     padding: 10px;
     
-  }
-
-  input {
-    padding-top: 10px;
-    width: 300px;
-    height: 40px;
-    font-size: 20px;
-    
-  }
-  
-  input:focus {
-    outline: none;
   }
   
   li {
     text-align: left;
-    font-size: 30px;
-    list-style: none;
-    margin: 0;
+    font-size: 2em;
+    list-style-type: circle;
     position: relative;
-    top: 120px;
+    max-width: 700px;
+
+    /* margin: 0 auto; */
+    position: relative;
+    top: 80px;
   }
   
   li:hover {
     text-decoration: line-through;
-    color: red;
+    color: rgb(226, 114, 114);
   }
